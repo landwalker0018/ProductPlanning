@@ -1,0 +1,31 @@
+# Exported previews and reports
+*.pdf
+
+# Document-rendering and visual-QA output
+.rendered_*/
+.word_preview_pages/
+.crossplatform_*_pages/
+.v2_*pages*/
+.v2_*contact_sheets*/
+.v2_spotcheck/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Office and editor temporary files
+~$*
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Operating-system and IDE metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
